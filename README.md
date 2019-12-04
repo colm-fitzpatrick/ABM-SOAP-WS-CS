@@ -33,12 +33,14 @@ Please follow the proceeding instructions to deploy the SOAP web service.
 * In the connections tab, right click the newly created ABM-SOAP-WS-CS application and select explore.
 * Navigate to ABM-SOAP-WS-CS-master folder and copy and paste its contents into the ABM-SOAP-WS-CS folder in the wwwroot directory.
 
+![ScreenShot](Data/soap-ws-cs-step3.png)
+
 # Step 5
 * Go to your internet browser and enter the URL http://localhost/ABM-SOAP-CS/WebService1.asmx
 
 
 # Using the web service
 * For ease of use I have included three XML files, one valid, one with an invalid command and one with an invalid site id. These can be found in the Data folder.
-* To test the valid xml file, select the RunValid method in the web service. This should return 0.
-* To test the invalid command xml file, select the RunInvalidCommand method. This should return -1.
-* To test the invalid site id xml file, select the RunInvalidSiteID method. This should return -2.
+* To test the valid xml file, select the RunValid method and then invoke. This should return 0.
+* To test the invalid command xml file, select the RunInvalidCommand method and then invoke. This should return -1.
+* To test the invalid site id xml file, select the RunInvalidSiteID method and then invoke. This should return -2.
