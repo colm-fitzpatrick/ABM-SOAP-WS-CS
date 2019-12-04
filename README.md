@@ -14,9 +14,10 @@ Please follow the proceeding instructions to deploy the SOAP web service.
 # Step 2
 * To run the web service we will need to use the Internet Information Services Windows feature.
 * To enable this feature: search for "windows features" and select "Turn Windows features on and off".
+![ScreenShot](ABM-SOAP-WS-CS/Data/soap ws cs step1.png)
 * Then navigate to Internet Information Services and select Web Management Tools and World Wide Web Services.
 * Then navigate to World Wide Web Services/ Application Development Features and ensure ASP.NET 4.5 is selected, if not select it.
-* Click OK and allow process.
+![ScreenShot](ABM-SOAP-WS-CS/Data/soap ws cs step2.png)
 
 # Step 3
 * Open the Internet Information Services (IIS) Manager program.
